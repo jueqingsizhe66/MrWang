@@ -1,0 +1,699 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANALYSIS_H	.\analysis.h	2;"	d
+AUXFIELD_H	.\auxfield.h	2;"	d
+AdamsBashforth	.\integration.C	/^void Integration::AdamsBashforth  (const int_t n    ,$/;"	f	class:Integration
+AdamsMoulton	.\integration.C	/^void Integration::AdamsMoulton (const int_t n    ,$/;"	f	class:Integration
+Analyser	.\analysis.C	/^Analyser::Analyser (Domain* D   ,$/;"	f	class:Analyser
+Analyser	.\analysis.h	/^class Analyser$/;"	c
+AuxField	.\auxfield.C	/^AuxField::AuxField (real_t*           alloc,$/;"	f	class:AuxField
+AuxField	.\auxfield.h	/^class AuxField$/;"	c
+BCMGR_H	.\bcmgr.h	2;"	d
+BCmgr	.\bcmgr.C	/^BCmgr::BCmgr (FEML*             file,$/;"	f	class:BCmgr
+BCmgr	.\bcmgr.h	/^class BCmgr$/;"	c
+BCs	.\bsys.C	/^const vector<Boundary*>& BoundarySys::BCs (const int_t mode) const$/;"	f	class:BoundarySys
+BCtriple	.\bcmgr.h	/^typedef struct bctriple { char group; int_t elmt; int_t side; } BCtriple;$/;"	t	typeref:struct:bctriple
+BOUNDARY_H	.\boundary.h	2;"	d
+BSYS_H	.\bsys.h	2;"	d
+Boundary	.\boundary.h	/^  Boundary (const int_t id, const char* group, const Condition* bcond,$/;"	f	class:Boundary
+Boundary	.\boundary.h	/^class Boundary : public Edge$/;"	c
+BoundarySys	.\bsys.C	/^BoundarySys::BoundarySys (BCmgr*                  bcmgr,$/;"	f	class:BoundarySys
+BoundarySys	.\bsys.h	/^class BoundarySys$/;"	c
+CFL	.\element.C	/^real_t Element::CFL (const real_t  d   ,$/;"	f	class:Element
+CONDITION_H	.\condition.h	2;"	d
+Cartesian	.\geometry.h	/^  enum CoordSys { Cartesian, Cylindrical };$/;"	e	enum:Geometry::CoordSys
+CircularArc	.\mesh.C	/^CircularArc::CircularArc (const int_t  id,$/;"	f	class:CircularArc
+CircularArc	.\mesh.h	/^class CircularArc : public Curve$/;"	c
+CondRecd	.\bcmgr.h	/^  class CondRecd {$/;"	c	class:BCmgr
+Condition	.\condition.h	/^class Condition$/;"	c
+CoordSys	.\geometry.h	/^  enum CoordSys { Cartesian, Cylindrical };$/;"	g	class:Geometry
+Curve	.\mesh.h	/^class Curve$/;"	c
+Cylindrical	.\geometry.h	/^  enum CoordSys { Cartesian, Cylindrical };$/;"	e	enum:Geometry::CoordSys
+DATA2DF_H	.\data2df.h	2;"	d
+DFT1D	.\data2df.C	/^Data2DF& Data2DF::DFT1D (const int_t sign)$/;"	f	class:Data2DF
+DOMAIN_H	.\domain.h	2;"	d
+DPT2D	.\data2df.C	/^Data2DF& Data2DF::DPT2D (const int_t sign, $/;"	f	class:Data2DF
+Data2DF	.\data2df.C	/^Data2DF::Data2DF (const int_t nP  ,$/;"	f	class:Data2DF
+Data2DF	.\data2df.h	/^class Data2DF$/;"	c
+Domain	.\domain.C	/^Domain::Domain (FEML*             F,$/;"	f	class:Domain
+Domain	.\domain.h	/^class Domain$/;"	c
+EDGE_H	.\edge.h	2;"	d
+ELEMENT_H	.\element.h	2;"	d
+Edge	.\edge.C	/^Edge::Edge (const char*    grp ,$/;"	f	class:Edge
+Edge	.\edge.h	/^class Edge$/;"	c
+Element	.\element.C	/^Element::Element (const int_t id,$/;"	f	class:Element
+Element	.\element.h	/^class Element$/;"	c
+Elmt	.\mesh.h	/^  class Elmt {$/;"	c	class:Mesh
+Essential	.\condition.h	/^  Essential              (const char* v) : _value (strtod (v, 0)) { }$/;"	f	class:Essential
+Essential	.\condition.h	/^class Essential : public Condition$/;"	c
+EssentialFunction	.\condition.C	/^EssentialFunction::EssentialFunction (const char* f)$/;"	f	class:EssentialFunction
+EssentialFunction	.\condition.h	/^class EssentialFunction : public Condition$/;"	c
+Extrapolation	.\integration.C	/^void Integration::Extrapolation  (const int_t n    ,$/;"	f	class:Integration
+FAMILY_H	.\family.h	2;"	d
+FEML	.\feml.C	/^FEML::FEML (const char* session)$/;"	f	class:FEML
+FEML	.\feml.h	/^class FEML$/;"	c
+FEML_H	.\feml.h	2;"	d
+FIELD_H	.\field.h	2;"	d
+FLOWRATE_H	.\flowrate.h	2;"	d
+F_conjugate	.\data2df.C	/^Data2DF& Data2DF::F_conjugate (const bool zero)$/;"	f	class:Data2DF
+F_shift	.\data2df.C	/^Data2DF& Data2DF::F_shift (const real alpha,$/;"	f	class:Data2DF
+F_symmetrize	.\data2df.C	/^Data2DF& Data2DF::F_symmetrize (const bool zero)$/;"	f	class:Data2DF
+Family	.\family.h	/^namespace Family {$/;"	n
+Field	.\field.C	/^Field::Field (BoundarySys*      B,$/;"	f	class:Field
+Field	.\field.h	/^class Field : public AuxField$/;"	c
+Flowrate	.\flowrate.C	/^Flowrate::Flowrate (Domain* D,$/;"	f	class:Flowrate
+Flowrate	.\flowrate.h	/^class Flowrate$/;"	c
+FluidParticle	.\particle.C	/^FluidParticle::FluidParticle (Domain*     d,$/;"	f	class:FluidParticle
+FluidParticle	.\particle.h	/^class FluidParticle$/;"	c
+GEOMETRY_H	.\geometry.h	2;"	d
+Geometry	.\geometry.h	/^class Geometry$/;"	c
+HISTORY_H	.\history.h	2;"	d
+Header	.\data2df.h	/^class Header$/;"	c
+Helmholtz	.\element.C	/^void Element::Helmholtz (const real_t lambda2,$/;"	f	class:Element
+HelmholtzDiag	.\element.C	/^void Element::HelmholtzDiag (const real_t lambda2,$/;"	f	class:Element
+HelmholtzKern	.\element.C	/^void Element::HelmholtzKern (const real_t lambda2,$/;"	f	class:Element
+HelmholtzOp	.\element.C	/^void Element::HelmholtzOp (const real_t lambda2,$/;"	f	class:Element
+HelmholtzOperator	.\field.C	/^void Field::HelmholtzOperator (const real_t* x      ,$/;"	f	class:Field
+HelmholtzRow	.\element.C	/^void Element::HelmholtzRow (const real_t lambda2,$/;"	f	class:Element
+HelmholtzSC	.\element.C	/^void Element::HelmholtzSC (const real_t lambda2,$/;"	f	class:Element
+HistoryPoint	.\history.h	/^  HistoryPoint (const integer id, const Element* e, const real r, $/;"	f	class:HistoryPoint
+HistoryPoint	.\history.h	/^class HistoryPoint$/;"	c
+ID	.\boundary.h	/^  int_t ID        () const { return _id; }$/;"	f	class:Boundary
+ID	.\element.h	/^  int_t ID () const { return _id; }$/;"	f	class:Element
+ID	.\history.h	/^  integer               ID      () const { return _id; } $/;"	f	class:HistoryPoint
+ID	.\mesh.h	/^    int_t         ID;$/;"	m	class:Mesh::Side
+ID	.\mesh.h	/^    int_t ID;$/;"	m	class:Mesh::Elmt
+ID	.\mesh.h	/^    int_t ID;$/;"	m	class:Mesh::Node
+ID	.\particle.h	/^  int_t           ID        () const { return _id;     }$/;"	f	class:FluidParticle
+IDMax	.\particle.h	/^  static int_t    IDMax     ()       { return _ID_MAX; }$/;"	f	class:FluidParticle
+IDstatus	.\mesh.h	/^  enum IDstatus {UNSET = -1};$/;"	g	class:Mesh
+INTEGRATION_H	.\integration.h	2;"	d
+Imass	.\bsys.C	/^const real_t* BoundarySys::Imass (const int_t mode) const$/;"	f	class:BoundarySys
+Integration	.\integration.h	/^class Integration$/;"	c
+KEYWORD_MAX	.\feml.h	18;"	d
+MATRIX_H	.\matrix.h	2;"	d
+MESH_H	.\mesh.h	2;"	d
+MISC_H	.\misc.h	2;"	d
+MS	.\matrix.C	/^static vector<MatrixSys*> MS;$/;"	v	file:
+MatrixSys	.\matrix.C	/^MatrixSys::MatrixSys (const real_t            lambda2,$/;"	f	class:MatrixSys
+MatrixSys	.\matrix.h	/^class MatrixSys$/;"	c
+Mesh	.\mesh.C	/^Mesh::Mesh (FEML*      f    ,$/;"	f	class:Mesh
+Mesh	.\mesh.h	/^class Mesh$/;"	c
+Mixed	.\condition.C	/^Mixed::Mixed (const char* v)$/;"	f	class:Mixed
+Mixed	.\condition.h	/^class Mixed : public Condition$/;"	c
+ModalMatrixSys	.\matrix.C	/^ModalMatrixSys::ModalMatrixSys (const real_t            lambda2 ,$/;"	f	class:ModalMatrixSys
+ModalMatrixSys	.\matrix.h	/^class ModalMatrixSys$/;"	c
+NUMBERSYS_H	.\numbersys.h	2;"	d
+Natural	.\condition.h	/^  Natural                (const char* v) : _value (strtod (v, 0)) { }$/;"	f	class:Natural
+Natural	.\condition.h	/^class Natural : public Condition$/;"	c
+NaturalFunction	.\condition.C	/^NaturalFunction::NaturalFunction (const char* f)$/;"	f	class:NaturalFunction
+NaturalFunction	.\condition.h	/^class NaturalFunction : public Condition$/;"	c
+NaturalHOPBC	.\condition.h	/^  NaturalHOPBC           () { }$/;"	f	class:NaturalHOPBC
+NaturalHOPBC	.\condition.h	/^class NaturalHOPBC : public Condition$/;"	c
+Node	.\mesh.h	/^  class Node {$/;"	c	class:Mesh
+Nsys	.\bsys.C	/^const NumberSys* BoundarySys::Nsys (const int_t mode) const$/;"	f	class:BoundarySys
+NumberSys	.\numbersys.h	/^class NumberSys$/;"	c
+OrderMax	.\integration.C	/^const int_t Integration::OrderMax = 4;$/;"	m	class:Integration	file:
+OrderMax	.\integration.h	/^  static const integer OrderMax;$/;"	m	class:Integration
+PARTICLE_H	.\particle.h	2;"	d
+PBCmgr	.\pressure.h	/^class PBCmgr$/;"	c
+PRESSURE_H	.\pressure.h	2;"	d
+RCS	.\analysis.C	/^static char RCS[] = "$Id: analysis.C,v 6.19 2008\/05\/11 22:41:22 hmb Exp $";$/;"	v	file:
+RCS	.\auxfield.C	/^static char RCS[] = "$Id: auxfield.C,v 6.25 2009\/01\/29 03:16:05 hmb Exp $";$/;"	v	file:
+RCS	.\bcmgr.C	/^static char RCS[] = "$Id: bcmgr.C,v 6.12 2007\/05\/31 23:45:50 hmb Exp $";$/;"	v	file:
+RCS	.\boundary.C	/^static char RCS[] = "$Id: boundary.C,v 6.13 2007\/03\/08 04:10:56 hmb Exp $";$/;"	v	file:
+RCS	.\bsys.C	/^static char RCS[] = "$Id: bsys.C,v 6.12 2007\/10\/19 04:12:34 hmb Exp $";$/;"	v	file:
+RCS	.\condition.C	/^static char RCS[] = "$Id: condition.C,v 6.10 2007\/03\/08 04:10:56 hmb Exp $";$/;"	v	file:
+RCS	.\data2df.C	/^static char RCS[] = "$Id: data2df.C,v 6.12 2008\/06\/08 12:55:57 hmb Exp $";$/;"	v	file:
+RCS	.\domain.C	/^static char RCS[] = "$Id: domain.C,v 6.21 2008\/11\/26 21:08:08 hmb Exp $";$/;"	v	file:
+RCS	.\edge.C	/^static char RCS[] = "$Id: edge.C,v 1.15 2007\/03\/08 04:10:56 hmb Exp $";$/;"	v	file:
+RCS	.\element.C	/^static char RCS[] = "$Id: element.C,v 6.16 2007\/08\/13 12:24:04 hmb Exp $";$/;"	v	file:
+RCS	.\family.C	/^static char RCS[] = "$Id: family.C,v 6.10 2007\/03\/08 04:10:56 hmb Exp $";$/;"	v	file:
+RCS	.\feml.C	/^static char RCS[] = "$Id: feml.C,v 6.10 2007\/03\/08 04:10:56 hmb Exp $";$/;"	v	file:
+RCS	.\field.C	/^static char RCS[] = "$Id: field.C,v 6.24 2009\/01\/29 03:16:06 hmb Exp $";$/;"	v	file:
+RCS	.\flowrate.C	/^static char RCS[] = "$Id: flowrate.C,v 1.8 2007\/03\/08 04:10:56 hmb Exp $";$/;"	v	file:
+RCS	.\geometry.C	/^static char RCS[] = "$Id: geometry.C,v 6.12 2008\/01\/04 12:25:23 hmb Exp $";$/;"	v	file:
+RCS	.\history.C	/^static char RCS[] = "$Id: history.C,v 6.10 2007\/03\/08 04:10:57 hmb Exp $";$/;"	v	file:
+RCS	.\integration.C	/^static char RCS[] = "$Id: integration.C,v 6.8 2007\/03\/08 04:10:57 hmb Exp $";$/;"	v	file:
+RCS	.\matrix.C	/^static char RCS[] = "$Id: matrix.C,v 6.15 2008\/01\/04 12:25:23 hmb Exp $";$/;"	v	file:
+RCS	.\mesh.C	/^static char RCS[] = "$Id: mesh.C,v 6.20 2007\/11\/08 06:34:38 hmb Exp $";$/;"	v	file:
+RCS	.\misc.C	/^static char RCS[] = "$Id: misc.C,v 6.17 2008\/06\/05 00:25:42 hmb Exp $";$/;"	v	file:
+RCS	.\particle.C	/^static char RCS[] = "$Id: particle.C,v 6.11 2007\/03\/08 04:10:57 hmb Exp $";$/;"	v	file:
+RCS	.\pressure.C	/^static char RCS[] = "$Id: pressure.C,v 6.13 2007\/03\/08 04:10:57 hmb Exp $";$/;"	v	file:
+RCS	.\statistics.C	/^static char RCS[] = "$Id: statistics.C,v 6.24 2008\/11\/26 21:08:08 hmb Exp $";$/;"	v	file:
+ROOTONLY	.\sem.h	50;"	d
+SEM_H	.\sem.h	2;"	d
+STATISTICS_H	.\statistics.h	2;"	d
+Side	.\mesh.h	/^    Side () {}$/;"	f	class:Mesh::Side
+Side	.\mesh.h	/^    Side (int_t id, Node* n1, Node* n2) :$/;"	f	class:Mesh::Side
+Side	.\mesh.h	/^  class Side {$/;"	c	class:Mesh
+Spline	.\mesh.C	/^Spline::Spline (const int_t id      ,$/;"	f	class:Spline
+Spline	.\mesh.h	/^class Spline : public Curve$/;"	c
+Statistics	.\statistics.C	/^Statistics::Statistics (Domain* D) :$/;"	f	class:Statistics
+Statistics	.\statistics.h	/^class Statistics$/;"	c
+StifflyStable	.\integration.C	/^void Integration::StifflyStable (const int_t n    ,$/;"	f	class:Integration
+UNSET	.\mesh.h	/^  enum IDstatus {UNSET = -1};$/;"	e	enum:Mesh::IDstatus
+VERBOSE	.\mesh.C	125;"	d	file:
+VERBOSE	.\sem.h	51;"	d
+_BC	.\matrix.h	/^  const vector<Boundary*>& _BC;	\/\/ Internal copy of Boundary conditions.$/;"	m	class:MatrixSys
+_C_	.\condition.h	/^  real_t _C_;		\/\/ -- This is "C" above.$/;"	m	class:Mixed
+_C_coeff	.\particle.C	/^real_t* FluidParticle::_C_coeff = 0;$/;"	m	class:FluidParticle	file:
+_C_coeff	.\particle.h	/^  static real_t* _C_coeff;	\/\/ Integration (corrector) coefficients.$/;"	m	class:FluidParticle
+_DT	.\particle.C	/^real_t  FluidParticle::_DT      = 0.0;$/;"	m	class:FluidParticle	file:
+_DT	.\particle.h	/^  static real_t  _DT     ;	\/\/ Time step.$/;"	m	class:FluidParticle
+_DTr	.\element.h	/^  const real_t* _DTr  ;		\/\/ Transpose.$/;"	m	class:Element
+_DTs	.\element.h	/^  const real_t* _DTs  ;		\/\/ Transpose.$/;"	m	class:Element
+_DVr	.\element.h	/^  const real_t* _DVr  ;		\/\/ Master element derivative operator, r.$/;"	m	class:Element
+_DVs	.\element.h	/^  const real_t* _DVs  ;		\/\/ Master element derivative operator, s.$/;"	m	class:Element
+_Dom	.\particle.C	/^Domain* FluidParticle::_Dom     = 0;$/;"	m	class:FluidParticle	file:
+_Dom	.\particle.h	/^  static Domain* _Dom    ;	\/\/ Velocity fields and class functions.$/;"	m	class:FluidParticle
+_E	.\history.h	/^  const Element* _E ;		\/\/ Pointer to element.$/;"	m	class:HistoryPoint
+_E	.\particle.h	/^  const Element* _E    ;        \/\/ Pointer to the element particle is in.$/;"	m	class:FluidParticle
+_FourierConstant	.\matrix.h	/^  real_t  _FourierConstant  ;	\/\/ Varies with mode number.$/;"	m	class:MatrixSys
+_H	.\matrix.h	/^  real_t*  _H     ;		\/\/ (Factored) packed global Helmholtz matrix.$/;"	m	class:MatrixSys
+_HelmholtzConstant	.\matrix.h	/^  real_t  _HelmholtzConstant;	\/\/ Same for all modes.$/;"	m	class:MatrixSys
+_ID_MAX	.\particle.C	/^int_t   FluidParticle::_ID_MAX  = 0;$/;"	m	class:FluidParticle	file:
+_ID_MAX	.\particle.h	/^  static int_t   _ID_MAX ;	\/\/ Highest issued id.$/;"	m	class:FluidParticle
+_K_	.\condition.h	/^  real_t _K_;		\/\/ -- This is "K" above.$/;"	m	class:Mixed
+_Lz	.\particle.C	/^real_t  FluidParticle::_Lz      = 0.0;$/;"	m	class:FluidParticle	file:
+_Lz	.\particle.h	/^  static real_t  _Lz     ;	\/\/ Periodic length.$/;"	m	class:FluidParticle
+_Msys	.\matrix.h	/^  vector<MatrixSys*> _Msys  ;	\/\/ One MatrixSys for each Fourier mode.$/;"	m	class:ModalMatrixSys
+_NCOM	.\particle.C	/^int_t   FluidParticle::_NCOM    = 0;$/;"	m	class:FluidParticle	file:
+_NCOM	.\particle.h	/^  static int_t   _NCOM   ;	\/\/ Number of velocity components.$/;"	m	class:FluidParticle
+_NEL	.\particle.C	/^int_t   FluidParticle::_NEL     = 0;$/;"	m	class:FluidParticle	file:
+_NEL	.\particle.h	/^  static int_t   _NEL    ;	\/\/ Number of elements in mesh.$/;"	m	class:FluidParticle
+_NS	.\matrix.h	/^  const NumberSys*         _NS;	\/\/ Internal copy of NumberSys.$/;"	m	class:MatrixSys
+_NZ	.\particle.C	/^int_t   FluidParticle::_NZ      = 0;$/;"	m	class:FluidParticle	file:
+_NZ	.\particle.h	/^  static int_t   _NZ     ;	\/\/ Number of z planes.$/;"	m	class:FluidParticle
+_PC	.\matrix.h	/^  real_t*  _PC  ;		\/\/ Diagonal preconditioner matrix.$/;"	m	class:MatrixSys
+_P_coeff	.\particle.C	/^real_t* FluidParticle::_P_coeff = 0;$/;"	m	class:FluidParticle	file:
+_P_coeff	.\particle.h	/^  static real_t* _P_coeff;	\/\/ Integration (predictor) coefficients.$/;"	m	class:FluidParticle
+_Pnx	.\pressure.C	/^real_t**** PBCmgr::_Pnx = 0;$/;"	m	class:PBCmgr	file:
+_Pnx	.\pressure.h	/^  static real_t**** _Pnx;	\/\/ x component of dP \/ dn at domain  boundary.$/;"	m	class:PBCmgr
+_Pny	.\pressure.C	/^real_t**** PBCmgr::_Pny = 0;$/;"	m	class:PBCmgr	file:
+_Pny	.\pressure.h	/^  static real_t**** _Pny;	\/\/ y component of dP \/ dn at domain  boundary.$/;"	m	class:PBCmgr
+_Q1	.\element.h	/^  real_t*       _Q1   ;		\/\/ Geometric factor 1 at quadrature points.$/;"	m	class:Element
+_Q2	.\element.h	/^  real_t*       _Q2   ;		\/\/ Geometric factor 2 at quadrature points.$/;"	m	class:Element
+_Q3	.\element.h	/^  real_t*       _Q3   ;		\/\/ Geometric factor 3 at quadrature points.$/;"	m	class:Element
+_Q4	.\element.h	/^  real_t*       _Q4   ;		\/\/ Geometric factor 4 at quadrature points.$/;"	m	class:Element
+_Q8	.\element.h	/^  real_t*       _Q8   ;	        \/\/ Like _Q4 but without possible factor of y.$/;"	m	class:Element
+_TORD	.\particle.C	/^int_t   FluidParticle::_TORD    = 0;$/;"	m	class:FluidParticle	file:
+_TORD	.\particle.h	/^  static int_t   _TORD   ;	\/\/ Order of N--S timestepping.$/;"	m	class:FluidParticle
+_Unx	.\pressure.C	/^real_t**** PBCmgr::_Unx = 0;$/;"	m	class:PBCmgr	file:
+_Unx	.\pressure.h	/^  static real_t**** _Unx;	\/\/ x component of normal velocity at boundary.$/;"	m	class:PBCmgr
+_Uny	.\pressure.C	/^real_t**** PBCmgr::_Uny = 0;$/;"	m	class:PBCmgr	file:
+_Uny	.\pressure.h	/^  static real_t**** _Uny;	\/\/ y component of normal velocity at boundary.$/;"	m	class:PBCmgr
+_Work	.\particle.C	/^real_t* FluidParticle::_Work    = 0;$/;"	m	class:FluidParticle	file:
+_Work	.\particle.h	/^  static real_t* _Work   ;	\/\/ Work area for point location routines.$/;"	m	class:FluidParticle
+_area	.\edge.h	/^  real_t*        _area   ;	\/\/ Weighted multiplier for parametric mapping.$/;"	m	class:Edge
+_avg	.\statistics.h	/^  map<char, AuxField*> _avg ;	\/\/ -- Map names to averaging buffers.$/;"	m	class:Statistics
+_axis	.\bcmgr.h	/^  bool               _axis    ; \/\/ Session file declared and axis BC group.$/;"	m	class:BCmgr
+_base	.\statistics.h	/^  Domain*              _base;	\/\/ -- Local pointer to external Domain.$/;"	m	class:Statistics
+_bcond	.\boundary.h	/^  const Condition* _bcond;	\/\/ Boundary condition.$/;"	m	class:Boundary
+_bipack	.\matrix.h	/^  int_t*   _bipack;		\/\/ Size of hbi for each element.$/;"	m	class:MatrixSys
+_bmask	.\numbersys.h	/^  int_t*  _bmask ;		\/\/ 1 for essential-BC nodes, 0 otherwise.$/;"	m	class:NumberSys
+_boundary	.\bsys.h	/^  vector<Boundary*>* _boundary  ;  \/\/ Boundary*'s  for modes 0, 1, 2.$/;"	m	class:BoundarySys
+_bsys	.\field.h	/^  BoundarySys* _bsys  ;		\/\/ Boundary system information.$/;"	m	class:Field
+_btog	.\numbersys.h	/^  int_t*  _btog  ;		\/\/ Gives numbers to all element-boundary knots.$/;"	m	class:NumberSys
+_cond	.\bcmgr.h	/^  vector<CondRecd*>  _cond    ; \/\/ Conditions in storage.$/;"	m	class:BCmgr
+_csys	.\geometry.C	/^Geometry::CoordSys Geometry::_csys  = Geometry::Cartesian;$/;"	m	class:Geometry	file:
+_csys	.\geometry.h	/^  static CoordSys _csys  ;	\/\/ Coordinate system (Cartesian\/cylindrical).$/;"	m	class:Geometry
+_ctime	.\particle.h	/^  const real_t   _ctime;	\/\/ Time of initialisation.$/;"	m	class:FluidParticle
+_curve	.\flowrate.h	/^  vector<Edge*>     _curve;$/;"	m	class:Flowrate
+_curveTable	.\mesh.h	/^  vector<Curve*> _curveTable;$/;"	m	class:Mesh
+_cyl	.\element.h	/^  const bool    _cyl  ;         \/\/ Cylindrical coordinate problem.$/;"	m	class:Element
+_data	.\auxfield.h	/^  real_t*           _data ;	\/\/ 2\/3D data area, element x element x plane.$/;"	m	class:AuxField
+_data	.\data2df.h	/^  real_t*     _data;$/;"	m	class:Data2DF
+_delta	.\element.h	/^  real_t*       _delta;		\/\/ Local length scale.$/;"	m	class:Element
+_descript	.\bcmgr.h	/^  vector<char*>      _descript; \/\/ Group name strings.$/;"	m	class:BCmgr
+_doffset	.\edge.h	/^  int_t          _doffset;	\/\/ Offset in Field data plane (matches BLAS).$/;"	m	class:Edge
+_drdx	.\element.h	/^  real_t*       _drdx ;		\/\/ Partial derivatives (r, s) --> (x, y),$/;"	m	class:Element
+_drdy	.\element.h	/^  real_t*       _drdy ;		\/\/   (2D row-major storage.)$/;"	m	class:Element
+_dsdx	.\element.h	/^  real_t*       _dsdx ;		\/\/   evaluated at quadrature points.$/;"	m	class:Element
+_dsdy	.\element.h	/^  real_t*       _dsdy ;		\/\/$/;"	m	class:Element
+_dskip	.\edge.h	/^  int_t          _dskip  ;	\/\/ Skip   in Field data plane (matches BLAS).$/;"	m	class:Edge
+_elmt	.\auxfield.h	/^  vector<Element*>& _elmt ;	\/\/ Quadrilateral elements.$/;"	m	class:AuxField
+_elmt	.\edge.h	/^  const Element* _elmt   ;	\/\/ Corresponding element.$/;"	m	class:Edge
+_elmtTable	.\mesh.h	/^  vector<Elmt*>  _elmtTable;$/;"	m	class:Mesh
+_elmtbc	.\bcmgr.h	/^  vector<BCtriple*>  _elmtbc  ; \/\/ Group tags for each element-side BC.$/;"	m	class:BCmgr
+_emap	.\element.h	/^  int_t*        _emap ;		\/\/ Indices of edges in nodal matrices.$/;"	m	class:Element
+_emask	.\numbersys.h	/^  int_t*  _emask ;		\/\/ 1 if associated Element has any esstl set.$/;"	m	class:NumberSys
+_endarc	.\mesh.h	/^  real_t    _endarc;$/;"	m	class:Spline
+_eoffset	.\edge.h	/^  int_t          _eoffset;      \/\/ Offset of corresponding element in Field.$/;"	m	class:Edge
+_feml	.\mesh.h	/^  FEML&          _feml;$/;"	m	class:Mesh
+_field_name	.\bsys.h	/^  char               _field_name;$/;"	m	class:BoundarySys
+_fields	.\bcmgr.h	/^  char*              _fields  ; \/\/ String containing field names.$/;"	m	class:BCmgr
+_fields	.\matrix.h	/^  char*              _fields;	\/\/ Character field tags for this system.$/;"	m	class:ModalMatrixSys
+_fields	.\numbersys.h	/^  char*   _fields;		\/\/ String with character labels for Fields.$/;"	m	class:NumberSys
+_function	.\condition.h	/^  char* _function;$/;"	m	class:EssentialFunction
+_function	.\condition.h	/^  char* _function;$/;"	m	class:NaturalFunction
+_gamma	.\flowrate.h	/^  real              _gamma;$/;"	m	class:Flowrate
+_geom	.\mesh.h	/^  spline2D* _geom;$/;"	m	class:Spline
+_green	.\flowrate.h	/^  vector<AuxField*> _green;$/;"	m	class:Flowrate
+_group	.\bcmgr.h	/^  vector<char>       _group   ; \/\/ Single-character group tags.$/;"	m	class:BCmgr
+_group	.\edge.h	/^  char*          _group  ;	\/\/ Group string.$/;"	m	class:Edge
+_hbi	.\matrix.h	/^  real_t** _hbi   ;		\/\/ Element external-internal coupling matrices.$/;"	m	class:MatrixSys
+_hii	.\matrix.h	/^  real_t** _hii   ;		\/\/ (Factored) internal-internal matrices.$/;"	m	class:MatrixSys
+_his_strm	.\analysis.h	/^  ofstream              _his_strm ; \/\/ File for history points.$/;"	m	class:Analyser
+_history	.\analysis.h	/^  vector<HistoryPoint*> _history  ; \/\/ Locations, etc. of history points.$/;"	m	class:Analyser
+_iavg	.\statistics.h	/^  int_t                _iavg;	\/\/ -- Same as value of token "AVERAGE".$/;"	m	class:Statistics
+_id	.\boundary.h	/^  int_t            _id   ;	\/\/ Ident number.$/;"	m	class:Boundary
+_id	.\element.h	/^  const int_t   _id   ;		\/\/ Element identifier.$/;"	m	class:Element
+_id	.\history.h	/^  const integer  _id;		\/\/ Numeric identifier.$/;"	m	class:HistoryPoint
+_id	.\particle.h	/^  const int_t    _id   ;	\/\/ Numeric tag.$/;"	m	class:FluidParticle
+_iipack	.\matrix.h	/^  int_t*   _iipack;		\/\/ Size of hii for each element.$/;"	m	class:MatrixSys
+_imass	.\numbersys.h	/^  real_t* _imass ;		\/\/ Inverse of global mass matrix;$/;"	m	class:NumberSys
+_initial	.\analysis.h	/^  vector<Point*>        _initial  ; \/\/ Starting locations of particles.$/;"	m	class:Analyser
+_line	.\field.h	/^  real_t**     _line  ;		\/\/ Single plane's worth of sheet.$/;"	m	class:Field
+_mdl_strm	.\analysis.h	/^  ofstream              _mdl_strm ; \/\/ File for modal energies.$/;"	m	class:Analyser
+_method	.\matrix.h	/^  SolverKind _method  ;		\/\/ Flag specifies direct or iterative solver.$/;"	m	class:MatrixSys
+_mixed	.\bsys.h	/^  bool               _mixed     ;  \/\/ Flags presence of mixed BC type.$/;"	m	class:BoundarySys
+_name	.\auxfield.h	/^  char              _name ;	\/\/ Identification tag.  '\\0' by default.$/;"	m	class:AuxField
+_name	.\data2df.h	/^  const char  _name;$/;"	m	class:Data2DF
+_name	.\mesh.h	/^  char*     _name;$/;"	m	class:Spline
+_name	.\statistics.h	/^  const char*          _name;$/;"	m	class:Statistics
+_navg	.\statistics.h	/^  int_t                _navg;	\/\/ -- Number of averages so far.$/;"	m	class:Statistics
+_nband	.\matrix.h	/^  int_t    _nband ;		\/\/ Bandwidth of global matrix (incl. diagonal).$/;"	m	class:MatrixSys
+_nbandw	.\numbersys.h	/^  int_t   _nbandw ;		\/\/ Bandwidth of btog (includes diagonal).$/;"	m	class:NumberSys
+_nbound	.\bsys.h	/^  int_t              _nbound    ;  \/\/ Number of element edges with BCs.$/;"	m	class:BoundarySys
+_nbound	.\field.h	/^  int_t        _nbound;		\/\/ Number of boundary edges.$/;"	m	class:Field
+_ndim	.\geometry.C	/^int_t Geometry::_ndim  = 0;$/;"	m	class:Geometry	file:
+_ndim	.\geometry.h	/^  static int_t    _ndim  ;	\/\/ Number of space dimensions.$/;"	m	class:Geometry
+_nel	.\data2df.h	/^  const int_t _np, _nz, _nel, _np2;$/;"	m	class:Data2DF
+_nel	.\geometry.C	/^int_t Geometry::_nel   = 0;$/;"	m	class:Geometry	file:
+_nel	.\geometry.h	/^  static int_t    _nel   ;	\/\/ Number of elements.$/;"	m	class:Geometry
+_nel	.\matrix.h	/^  int_t    _nel     ;		\/\/ Number of elemental matrices.$/;"	m	class:MatrixSys
+_neng	.\statistics.h	/^  int_t                _neng;	\/\/ -- No. additional correlations for energy.$/;"	m	class:Statistics
+_next	.\element.h	/^  const int_t   _next ;		\/\/ Number of points on periphery.$/;"	m	class:Element
+_nglobal	.\matrix.h	/^  int_t    _nglobal ;		\/\/ Number of unique element-boundary nodes.$/;"	m	class:MatrixSys
+_nglobal	.\numbersys.h	/^  int_t   _nglobal;		\/\/ Length of inv_mass.$/;"	m	class:NumberSys
+_nint	.\element.h	/^  const int_t   _nint ;		\/\/ Number of internal points.$/;"	m	class:Element
+_nline	.\field.h	/^  int_t        _nline ;		\/\/ Length of one boundary line.$/;"	m	class:Field
+_nodeTable	.\mesh.h	/^  vector<Node*>  _nodeTable;$/;"	m	class:Mesh
+_np	.\data2df.h	/^  const int_t _np, _nz, _nel, _np2;$/;"	m	class:Data2DF
+_np	.\edge.h	/^  int_t          _np     ;	\/\/ Matches Geometry::nP().$/;"	m	class:Edge
+_np	.\element.h	/^  const int_t   _np   ;		\/\/ Number of points on an edge.$/;"	m	class:Element
+_np	.\geometry.C	/^int_t Geometry::_np    = 0;$/;"	m	class:Geometry	file:
+_np	.\geometry.h	/^  static int_t    _np    ;	\/\/ Number of points along element edge.$/;"	m	class:Geometry
+_np2	.\data2df.h	/^  const int_t _np, _nz, _nel, _np2;$/;"	m	class:Data2DF
+_npack	.\matrix.h	/^  int_t    _npack ;		\/\/ Number of real_ts for global matrix.$/;"	m	class:MatrixSys
+_nplane	.\data2df.h	/^  int_t       _nplane, _ntot;$/;"	m	class:Data2DF
+_npnp	.\element.h	/^  const int_t   _npnp ;		\/\/ Total number = np * np.$/;"	m	class:Element
+_nproc	.\geometry.C	/^int_t Geometry::_nproc = 0;$/;"	m	class:Geometry	file:
+_nproc	.\geometry.h	/^  static int_t    _nproc ;	\/\/ Number of processors.$/;"	m	class:Geometry
+_npts	.\matrix.h	/^  int_t    _npts;		\/\/ Total number of unique meshpoints.$/;"	m	class:MatrixSys
+_nraw	.\statistics.h	/^  int_t                _nraw;	\/\/ -- No. of raw field variables in _base.$/;"	m	class:Statistics
+_nrey	.\statistics.h	/^  int_t                _nrey;	\/\/ -- No. of Reynolds stress correlations.$/;"	m	class:Statistics
+_nsolve	.\matrix.h	/^  int_t    _nsolve  ;		\/\/ System-specific number of global unknowns.$/;"	m	class:MatrixSys
+_nsolve	.\numbersys.h	/^  int_t   _nsolve ;		\/\/ Number of non-masked global nodes.$/;"	m	class:NumberSys
+_ntot	.\data2df.h	/^  int_t       _nplane, _ntot;$/;"	m	class:Data2DF
+_number	.\bsys.h	/^  NumberSys**        _number    ;  \/\/ NumberSys*'s for modes 0, 1, 2.$/;"	m	class:BoundarySys
+_numsys	.\bcmgr.h	/^  vector<NumberSys*> _numsys  ; \/\/ Numbering schemes in storage.$/;"	m	class:BCmgr
+_nvel	.\statistics.h	/^  int_t                _nvel;	\/\/ -- No. of velocity components.$/;"	m	class:Statistics
+_nx	.\edge.h	/^  real_t*        _nx     ;	\/\/ Unit outward normal components at nodes.$/;"	m	class:Edge
+_ny	.\edge.h	/^  real_t*        _ny     ;	\/\/ $/;"	m	class:Edge
+_nz	.\auxfield.h	/^  int_t             _nz   ;	\/\/ number of data planes (per process).$/;"	m	class:AuxField
+_nz	.\data2df.h	/^  const int_t _np, _nz, _nel, _np2;$/;"	m	class:Data2DF
+_nz	.\geometry.C	/^int_t Geometry::_nz    = 0;$/;"	m	class:Geometry	file:
+_nz	.\geometry.h	/^  static int_t    _nz    ;	\/\/ Number of planes (total).$/;"	m	class:Geometry
+_nzp	.\geometry.C	/^int_t Geometry::_nzp   = 0;$/;"	m	class:Geometry	file:
+_nzp	.\geometry.h	/^  static int_t    _nzp   ;	\/\/ Number of planes per processor.$/;"	m	class:Geometry
+_optlev	.\numbersys.h	/^  int_t   _optlev ;		\/\/ Optimization level used for btog.$/;"	m	class:NumberSys
+_p	.\particle.h	/^  Point          _p    ;	\/\/ Physical space location.$/;"	m	class:FluidParticle
+_par_strm	.\analysis.h	/^  ofstream              _par_strm ; \/\/ File for particle tracking.$/;"	m	class:Analyser
+_particle	.\analysis.h	/^  list<FluidParticle*>  _particle ; \/\/ List of fluid particles.$/;"	m	class:Analyser
+_ph_stats	.\analysis.h	/^  Statistics*           _ph_stats ; \/\/ Phase-average field statistics.$/;"	m	class:Analyser
+_pid	.\geometry.C	/^int_t Geometry::_pid   = 0;$/;"	m	class:Geometry	file:
+_pid	.\geometry.h	/^  static int_t    _pid   ;	\/\/ ID for this processor, starting at 0.$/;"	m	class:Geometry
+_plane	.\auxfield.h	/^  real_t**          _plane;	\/\/ Pointer into data for each 2D frame.$/;"	m	class:AuxField
+_plane	.\data2df.h	/^  real_t**    _plane;$/;"	m	class:Data2DF
+_pmap	.\element.h	/^  int_t*        _pmap ;		\/\/ Inversion of emap (pmap[emap[i]] = i).$/;"	m	class:Element
+_psize	.\geometry.C	/^int_t Geometry::_psize = 0;$/;"	m	class:Geometry	file:
+_psize	.\geometry.h	/^  static int_t    _psize ;	\/\/ nPlane rounded up to suit restrictions.$/;"	m	class:Geometry
+_r	.\history.h	/^  const real     _r ;		\/\/ Canonical-space r-location.$/;"	m	class:HistoryPoint
+_r	.\particle.h	/^  real_t         _r    ;        \/\/ Corresponding "r" location within element.$/;"	m	class:FluidParticle
+_raw	.\statistics.h	/^  map<char, AuxField*> _raw ;	\/\/ -- Pointers to the base\/raw storage areas.$/;"	m	class:Statistics
+_refQ	.\flowrate.h	/^  real              _refQ ;$/;"	m	class:Flowrate
+_s	.\history.h	/^  const real     _s ;		\/\/ Canonical-space s-location.$/;"	m	class:HistoryPoint
+_s	.\particle.h	/^  real_t         _s    ;	\/\/ likewise for "s".$/;"	m	class:FluidParticle
+_sheet	.\field.h	/^  real_t*      _sheet ;		\/\/ Wrap-around storage for data boundary.$/;"	m	class:Field
+_side	.\edge.h	/^  int_t          _side   ;	\/\/ Corresponding side.$/;"	m	class:Edge
+_singular	.\matrix.h	/^  int_t    _singular;		\/\/ If system is potentially singular.$/;"	m	class:MatrixSys
+_size	.\auxfield.h	/^  int_t             _size ;	\/\/ _nz * Geometry::planeSize().$/;"	m	class:AuxField
+_src	.\analysis.h	/^  Domain*               _src      ; \/\/ Source information.$/;"	m	class:Analyser
+_src	.\flowrate.h	/^  Domain*           _src;$/;"	m	class:Flowrate
+_startarc	.\mesh.h	/^  real_t    _startarc;$/;"	m	class:Spline
+_stats	.\analysis.h	/^  Statistics*           _stats    ; \/\/ Field average statistics.$/;"	m	class:Analyser
+_step	.\particle.h	/^  int_t          _step ;	\/\/ Number of integration steps.$/;"	m	class:FluidParticle
+_u	.\particle.h	/^  real_t*        _u    ;	\/\/ Multilevel "x" velocity storage.$/;"	m	class:FluidParticle
+_v	.\particle.h	/^  real_t*        _v    ;	\/\/ Multilevel "y" velocity storage.$/;"	m	class:FluidParticle
+_value	.\condition.h	/^  real_t _value;$/;"	m	class:Essential
+_value	.\condition.h	/^  real_t _value;$/;"	m	class:Natural
+_w	.\particle.h	/^  real_t*        _w    ;	\/\/ Multilevel "z" velocity storage.$/;"	m	class:FluidParticle
+_wr	.\element.h	/^  const real_t* _wr   ;		\/\/ Master element quadrature weights, r.$/;"	m	class:Element
+_ws	.\element.h	/^  const real_t* _ws   ;		\/\/ Master element quadrature weights, s.$/;"	m	class:Element
+_x	.\edge.h	/^  real_t*        _x      ;	\/\/ Node locations.$/;"	m	class:Edge
+_x	.\history.h	/^  const real     _x ;		\/\/ x location.$/;"	m	class:HistoryPoint
+_xmesh	.\element.h	/^  real_t*       _xmesh;		\/\/ Physical space mesh.$/;"	m	class:Element
+_y	.\edge.h	/^  real_t*        _y      ;	\/\/$/;"	m	class:Edge
+_y	.\history.h	/^  const real     _y ;		\/\/ y location.$/;"	m	class:HistoryPoint
+_ymesh	.\element.h	/^  real_t*       _ymesh;		\/\/ 2D row-major store.$/;"	m	class:Element
+_z	.\history.h	/^  const real     _z ;		\/\/ Location in homogeneous direction.$/;"	m	class:HistoryPoint
+_zr	.\element.h	/^  const real_t* _zr   ;		\/\/ Master element mesh points on [-1, 1], r.$/;"	m	class:Element
+_zs	.\element.h	/^  const real_t* _zs   ;		\/\/ Master element mesh points on [-1, 1], s.$/;"	m	class:Element
+accelerate	.\pressure.C	/^void PBCmgr::accelerate (const Vector& a,$/;"	f	class:PBCmgr
+addForGroup	.\edge.C	/^void Edge::addForGroup (const char*  grp,$/;"	f	class:Edge
+addToM0Boundaries	.\field.C	/^void Field::addToM0Boundaries (const real_t val,$/;"	f	class:Field
+analyse	.\analysis.C	/^void Analyser::analyse (AuxField** work0,$/;"	f	class:Analyser
+arcCoord	.\mesh.C	/^real_t Spline::arcCoord ()$/;"	f	class:Spline
+arclen	.\mesh.h	/^  vector<real_t> arclen;        \/\/ arclength along curve at knot locations$/;"	m	class:spline2D
+area	.\element.C	/^real_t Element::area () const$/;"	f	class:Element
+assemble	.\mesh.C	/^void Mesh::assemble()$/;"	f	class:Mesh
+attribute	.\feml.C	/^integer FEML::attribute (const char* tag ,$/;"	f	class:FEML
+augmentDg	.\boundary.C	/^void Boundary::augmentDg (const int_t* b2g,$/;"	f	class:Boundary
+augmentDg	.\condition.C	/^void Mixed::augmentDg (const int_t   side, $/;"	f	class:Mixed
+augmentDg	.\condition.h	/^  virtual void augmentDg (const int_t, const int_t*, $/;"	f	class:Essential
+augmentDg	.\condition.h	/^  virtual void augmentDg (const int_t, const int_t*, $/;"	f	class:EssentialFunction
+augmentDg	.\condition.h	/^  virtual void augmentDg (const int_t, const int_t*, $/;"	f	class:Natural
+augmentDg	.\condition.h	/^  virtual void augmentDg (const int_t, const int_t*, $/;"	f	class:NaturalFunction
+augmentDg	.\condition.h	/^  virtual void augmentDg (const int_t, const int_t*, $/;"	f	class:NaturalHOPBC
+augmentOp	.\boundary.C	/^void Boundary::augmentOp (const int_t*  b2g,$/;"	f	class:Boundary
+augmentOp	.\condition.C	/^void Mixed::augmentOp (const int_t   side, $/;"	f	class:Mixed
+augmentOp	.\condition.h	/^  virtual void augmentOp (const int_t, const int_t*,$/;"	f	class:Essential
+augmentOp	.\condition.h	/^  virtual void augmentOp (const int_t, const int_t*,$/;"	f	class:EssentialFunction
+augmentOp	.\condition.h	/^  virtual void augmentOp (const int_t, const int_t*,$/;"	f	class:Natural
+augmentOp	.\condition.h	/^  virtual void augmentOp (const int_t, const int_t*,$/;"	f	class:NaturalFunction
+augmentOp	.\condition.h	/^  virtual void augmentOp (const int_t, const int_t*,$/;"	f	class:NaturalHOPBC
+augmentSC	.\boundary.C	/^void Boundary::augmentSC (const int_t  nband ,$/;"	f	class:Boundary
+augmentSC	.\condition.C	/^void Mixed::augmentSC (const int_t   side  ,$/;"	f	class:Mixed
+augmentSC	.\condition.h	/^  virtual void augmentSC (const int_t, const int_t, const int_t,$/;"	f	class:Essential
+augmentSC	.\condition.h	/^  virtual void augmentSC (const int_t, const int_t, const int_t,$/;"	f	class:EssentialFunction
+augmentSC	.\condition.h	/^  virtual void augmentSC (const int_t, const int_t, const int_t,$/;"	f	class:Natural
+augmentSC	.\condition.h	/^  virtual void augmentSC (const int_t, const int_t, const int_t,$/;"	f	class:NaturalFunction
+augmentSC	.\condition.h	/^  virtual void augmentSC (const int_t, const int_t, const int_t,$/;"	f	class:NaturalHOPBC
+axial	.\mesh.h	/^    bool          axial;$/;"	m	class:Mesh::Side
+b	.\domain.h	/^  vector<BoundarySys*> b   ;	\/\/ Field boundary systems.$/;"	m	class:Domain
+bOff	.\edge.h	/^  int_t  bOff  () const { return _elmt -> ID() * Geometry::nExtElmt(); }$/;"	f	class:Edge
+bTransform	.\field.C	/^void Field::bTransform (const int_t sign)$/;"	f	class:Field
+baseMode	.\geometry.h	/^  static int_t  baseMode  () { return _pid * nModeProc();    }$/;"	f	class:Geometry
+basePlane	.\geometry.h	/^  static int_t  basePlane () { return _pid * _nzp;           }$/;"	f	class:Geometry
+bcn	.\bcmgr.h	/^    Condition* bcn  ;$/;"	m	class:BCmgr::CondRecd
+bctriple	.\bcmgr.h	/^typedef struct bctriple { char group; int_t elmt; int_t side; } BCtriple;$/;"	s
+beta	.\data2df.h	/^  real_t beta;$/;"	m	class:Header
+bmask	.\numbersys.h	/^  const int_t*  bmask   () const { return _bmask;             }$/;"	f	class:NumberSys
+bndryDsSum	.\element.C	/^void Element::bndryDsSum (const int_t*  btog,$/;"	f	class:Element
+bndryInsert	.\element.C	/^void Element::bndryInsert (const int_t*  b2g,$/;"	f	class:Element
+bndryMask	.\element.C	/^void Element::bndryMask (const int_t*  bmsk,$/;"	f	class:Element
+btog	.\numbersys.h	/^  const int_t*  btog    () const { return _btog;              }$/;"	f	class:NumberSys
+build	.\pressure.C	/^void PBCmgr::build (const Field* P)$/;"	f	class:PBCmgr
+buildMap	.\mesh.C	/^int_t Mesh::buildMap (const int_t np ,$/;"	f	class:Mesh
+buildMask	.\mesh.C	/^void Mesh::buildMask (const int_t np  ,$/;"	f	class:Mesh
+buildRHS	.\field.C	/^void Field::buildRHS (real_t*                  force ,$/;"	f	class:Field
+buildnum	.\bcmgr.C	/^void BCmgr::buildnum (const char*       session,$/;"	f	class:BCmgr
+buildsurf	.\bcmgr.C	/^void BCmgr::buildsurf (FEML*             file,$/;"	f	class:BCmgr
+ccwNode	.\mesh.h	/^    Node* ccwNode  (int_t i) { return node[(i         +1) % nNodes()]; }$/;"	f	class:Mesh::Elmt
+centre	.\mesh.h	/^  Point  centre;$/;"	m	class:CircularArc
+centroid	.\mesh.C	/^Point Mesh::Elmt::centroid () const$/;"	f	class:Mesh::Elmt
+checkAssembly	.\mesh.C	/^void Mesh::checkAssembly()$/;"	f	class:Mesh
+chooseNode	.\mesh.C	/^void Mesh::chooseNode (Node* N1,$/;"	f	class:Mesh
+closest	.\mesh.C	/^int_t Spline::closest (const Point& p)$/;"	f	class:Spline
+compute	.\mesh.C	/^void CircularArc::compute (const int_t   np     ,$/;"	f	class:CircularArc
+compute	.\mesh.C	/^void Spline::compute (const int_t   np     ,$/;"	f	class:Spline
+connect	.\mesh.C	/^void Mesh::Side::connect (const int_t ni ,$/;"	f	class:Mesh::Side
+constrain	.\field.C	/^void Field::constrain (real_t*          force  ,$/;"	f	class:Field
+convexity	.\mesh.h	/^  int_t  convexity;$/;"	m	class:CircularArc
+coupleBCs	.\field.C	/^void Field::coupleBCs (Field*      v  ,$/;"	f	class:Field
+ctime	.\particle.h	/^  real_t          ctime     () const { return _ctime;  }$/;"	f	class:FluidParticle
+curlCurl	.\edge.C	/^void Edge::curlCurl (const int_t   k  ,$/;"	f	class:Edge
+curveSide	.\mesh.h	/^  Mesh::Side* curveSide;$/;"	m	class:Curve
+curves	.\mesh.C	/^void Mesh::curves ()$/;"	f	class:Mesh
+cwNode	.\mesh.h	/^    Node* cwNode   (int_t i) { return node[(i+nNodes()-1) % nNodes()]; }$/;"	f	class:Mesh::Elmt
+cylindrical	.\geometry.h	/^  static bool     cylindrical () { return _csys == Geometry::Cylindrical; }$/;"	f	class:Geometry
+dOff	.\edge.h	/^  int_t  dOff  () const { return _doffset; }$/;"	f	class:Edge
+dSkip	.\edge.h	/^  int_t  dSkip () const { return _dskip; }$/;"	f	class:Edge
+describe	.\condition.C	/^void Essential::describe (char* tgt) const$/;"	f	class:Essential
+describe	.\condition.C	/^void EssentialFunction::describe (char* tgt) const$/;"	f	class:EssentialFunction
+describe	.\condition.C	/^void Mixed::describe (char* tgt) const$/;"	f	class:Mixed
+describe	.\condition.C	/^void Natural::describe (char* tgt) const$/;"	f	class:Natural
+describe	.\condition.C	/^void NaturalFunction::describe (char* tgt) const$/;"	f	class:NaturalFunction
+describe	.\condition.C	/^void NaturalHOPBC::describe (char* tgt) const$/;"	f	class:NaturalHOPBC
+describeBC	.\mesh.C	/^void Mesh::describeBC (char  grp,$/;"	f	class:Mesh
+describeGrp	.\mesh.C	/^void Mesh::describeGrp (char  G,$/;"	f	class:Mesh
+divY	.\edge.C	/^void Edge::divY (real_t* tgt) const$/;"	f	class:Edge
+divY	.\element.C	/^void Element::divY (real_t* src) const$/;"	f	class:Element
+divergence	.\analysis.C	/^void Analyser::divergence (AuxField** Us) const$/;"	f	class:Analyser
+dt	.\data2df.h	/^  real_t dt  ;$/;"	m	class:Header
+dump	.\domain.C	/^void Domain::dump ()$/;"	f	class:Domain
+dump	.\statistics.C	/^void Statistics::dump (const char* filename)$/;"	f	class:Statistics
+elmt	.\bcmgr.h	/^typedef struct bctriple { char group; int_t elmt; int_t side; } BCtriple;$/;"	m	struct:bctriple
+elmt	.\domain.h	/^  vector<Element*>&    elmt;	\/\/ Shared for equal-order interpolations.$/;"	m	class:Domain
+emask	.\numbersys.h	/^  const int_t*  emask   () const { return _emask;             }$/;"	f	class:NumberSys
+endNode	.\mesh.h	/^    Node*         endNode;$/;"	m	class:Mesh::Side
+estimateCFL	.\analysis.C	/^void Analyser::estimateCFL () const$/;"	f	class:Analyser
+evaluate	.\boundary.C	/^void Boundary::evaluate (const int_t plane,$/;"	f	class:Boundary
+evaluate	.\condition.C	/^void Essential::evaluate (const int_t    np  ,$/;"	f	class:Essential
+evaluate	.\condition.C	/^void EssentialFunction:: evaluate (const int_t    np  ,$/;"	f	class:EssentialFunction
+evaluate	.\condition.C	/^void Mixed::evaluate (const int_t    np  ,$/;"	f	class:Mixed
+evaluate	.\condition.C	/^void Natural::evaluate (const int_t    np  ,$/;"	f	class:Natural
+evaluate	.\condition.C	/^void NaturalFunction::evaluate (const int_t    np  ,$/;"	f	class:NaturalFunction
+evaluate	.\condition.C	/^void NaturalHOPBC::evaluate (const int_t    np  ,$/;"	f	class:NaturalHOPBC
+evaluate	.\element.C	/^void Element::evaluate (const char* func,$/;"	f	class:Element
+evaluate	.\pressure.C	/^void PBCmgr::evaluate (const int_t   id   ,$/;"	f	class:PBCmgr
+evaluateBoundaries	.\field.C	/^void Field::evaluateBoundaries (const int_t step   ,$/;"	f	class:Field
+evaluateM0Boundaries	.\field.C	/^void Field::evaluateM0Boundaries (const int_t step)$/;"	f	class:Field
+extent	.\mesh.C	/^void Mesh::extent (Point& lo,$/;"	f	class:Mesh
+feml_file	.\feml.h	/^  ifstream  feml_file;		  \/\/ Input stream.$/;"	m	class:FEML
+feml_root	.\feml.h	/^  char*     feml_root;		  \/\/ Name of FEML file, suffix removed.$/;"	m	class:FEML
+field	.\bcmgr.h	/^  const char*        field        () const { return _fields; }$/;"	f	class:BCmgr
+field	.\bsys.h	/^  char                     field () const { return _field_name; }$/;"	f	class:BoundarySys
+field	.\domain.h	/^  char* field;		\/\/ Lower-case single character field names.$/;"	m	class:Domain
+fields	.\numbersys.h	/^  const char*   fields  () const { return _fields;            }$/;"	f	class:NumberSys
+fixPeriodic	.\mesh.C	/^void Mesh::fixPeriodic()$/;"	f	class:Mesh
+fld	.\bcmgr.h	/^    char       fld  ;$/;"	m	class:BCmgr::CondRecd
+flds	.\data2df.h	/^  char*  flds;$/;"	m	class:Header
+fmask	.\numbersys.h	/^  int_t         fmask   () const { return _nglobal - _nsolve; }$/;"	f	class:NumberSys
+frmt	.\data2df.h	/^  char*  frmt;$/;"	m	class:Header
+gID	.\mesh.h	/^    int_t gID;$/;"	m	class:Mesh::Node
+gID	.\mesh.h	/^    vector<int_t> gID;$/;"	m	class:Mesh::Side
+ga	.\mesh.C	/^static Point             ga, gp;$/;"	v	file:
+gcurve	.\mesh.C	/^static vector<spline2D*> gcurve;$/;"	v	file:
+geometry	.\edge.C	/^void Edge::geometry (real_t* X   ,$/;"	f	class:Edge
+get	.\edge.C	/^void Edge::get (const real_t* src,$/;"	f	class:Edge
+getAngl	.\mesh.C	/^static real_t getAngl (const real_t& s)$/;"	f	file:
+getBCedges	.\bcmgr.h	/^  vector<BCtriple*>& getBCedges   () { return _elmtbc; }$/;"	f	class:BCmgr
+getCondition	.\bcmgr.C	/^Condition* BCmgr::getCondition (const char  group,$/;"	f	class:BCmgr
+getEssential	.\field.C	/^void Field::getEssential (const real_t*            src,$/;"	f	class:Field
+getGeom	.\mesh.C	/^spline2D* Spline::getGeom (const char* fname)$/;"	f	class:Spline
+getName	.\data2df.h	/^  char getName () { return _name; }$/;"	f	class:Data2DF
+getNumberSys	.\bcmgr.C	/^NumberSys* BCmgr::getNumberSys (const char  name,$/;"	f	class:BCmgr
+getQ	.\flowrate.C	/^real Flowrate::getQ () const$/;"	f	class:Flowrate
+global2local	.\element.C	/^void Element::global2local (real_t*       tgt     ,$/;"	f	class:Element
+global2local	.\field.C	/^void Field::global2local (const real_t*    src,$/;"	f	class:Field
+global2localSC	.\element.C	/^void Element::global2localSC (const real_t* RHS ,$/;"	f	class:Element
+gp	.\mesh.C	/^static Point             ga, gp;$/;"	v	file:
+grad	.\element.C	/^void Element::grad (real_t* tgtX,$/;"	f	class:Element
+gradX	.\element.C	/^void Element::gradX (const real_t* xr,$/;"	f	class:Element
+gradY	.\element.C	/^void Element::gradY (const real_t* yr,$/;"	f	class:Element
+group	.\bcmgr.h	/^typedef struct bctriple { char group; int_t elmt; int_t side; } BCtriple;$/;"	m	struct:bctriple
+group	.\mesh.h	/^    union { Side* mateSide; char group; };$/;"	m	union:Mesh::Side::__anon1
+groupInfo	.\bcmgr.C	/^const char* BCmgr::groupInfo (const char name) const$/;"	f	class:BCmgr
+grp	.\bcmgr.h	/^    char       grp  ;$/;"	m	class:BCmgr::CondRecd
+gs	.\mesh.C	/^static spline2D*         gs;$/;"	v	file:
+imass	.\numbersys.h	/^  const real_t* imass   () const { return _imass;             }$/;"	f	class:NumberSys
+inGroup	.\edge.h	/^  bool   inGroup     (const char* grp) const { return !(strcmp (grp,_group)); }$/;"	f	class:Edge
+inMesh	.\particle.h	/^  const  Element* inMesh    () const { return _E;      }$/;"	f	class:FluidParticle
+initialise	.\statistics.C	/^void Statistics::initialise (const char* filename)$/;"	f	class:Statistics
+integral	.\element.C	/^real_t Element::integral (const char* func,$/;"	f	class:Element
+integral	.\element.C	/^real_t Element::integral (const real_t* src,$/;"	f	class:Element
+integrate	.\particle.C	/^void FluidParticle::integrate ()$/;"	f	class:FluidParticle
+ismatch	.\mesh.h	/^  bool ismatch (const int_t e, const int_t s) const {$/;"	f	class:Curve
+keyPosn	.\feml.h	/^  streampos keyPosn[KEYWORD_MAX]; \/\/ Locations corresponding to keywords.$/;"	m	class:FEML
+keyWord	.\feml.h	/^  char*     keyWord[KEYWORD_MAX]; \/\/ Keywords used.$/;"	m	class:FEML
+lengthScale	.\element.C	/^void Element::lengthScale (real_t* tgt) const$/;"	f	class:Element
+loc	.\mesh.h	/^    Point loc;$/;"	m	class:Mesh::Node
+local2global	.\element.C	/^void Element::local2global (const real_t* src     ,$/;"	f	class:Element
+local2global	.\field.C	/^void Field::local2global (const real_t*    src,$/;"	f	class:Field
+local2globalSum	.\element.C	/^void Element::local2globalSum (const real_t* src     ,$/;"	f	class:Element
+local2globalSum	.\field.C	/^void Field::local2globalSum (const real_t*   src,$/;"	f	class:Field
+local2globalSumSC	.\element.C	/^void Element::local2globalSumSC (real_t*       F   ,$/;"	f	class:Element
+locate	.\element.C	/^bool Element::locate (const real_t x    ,$/;"	f	class:Element
+locate	.\history.C	/^const Element* HistoryPoint::locate (const real_t      x   ,$/;"	f	class:HistoryPoint
+location	.\particle.h	/^  const  Point&   location  () const { return _p;      } $/;"	f	class:FluidParticle
+maintain	.\pressure.C	/^void PBCmgr::maintain (const int_t      step   ,$/;"	f	class:PBCmgr
+mapping	.\element.C	/^void Element::mapping ()$/;"	f	class:Element
+match	.\matrix.C	/^bool MatrixSys::match (const real_t     lambda2,$/;"	f	class:MatrixSys
+matchBC	.\mesh.C	/^bool Mesh::matchBC (const char grp,$/;"	f	class:Mesh
+mateElmt	.\mesh.h	/^    Elmt*         mateElmt;	\/\/ -- Doubles as a flag for union:$/;"	m	class:Mesh::Side
+mateSide	.\mesh.h	/^    union { Side* mateSide; char group; };$/;"	m	union:Mesh::Side::__anon1
+meshElmt	.\mesh.C	/^void Mesh::meshElmt (const int_t   ID,$/;"	f	class:Mesh
+meshSide	.\mesh.C	/^void Mesh::meshSide (const int_t   np     ,$/;"	f	class:Mesh
+mixBC	.\bsys.h	/^  int_t                    mixBC () const { return _mixed; }$/;"	f	class:BoundarySys
+modalEnergy	.\analysis.C	/^void Analyser::modalEnergy ()$/;"	f	class:Analyser
+modeConstant	.\field.C	/^real_t Field::modeConstant (const char   name,$/;"	f	class:Field
+momentX	.\element.C	/^real_t Element::momentX (const char* func,$/;"	f	class:Element
+momentX	.\element.C	/^real_t Element::momentX (const real_t* src,$/;"	f	class:Element
+momentY	.\element.C	/^real_t Element::momentY (const char* func,$/;"	f	class:Element
+momentY	.\element.C	/^real_t Element::momentY (const real_t* src,$/;"	f	class:Element
+mulX	.\element.C	/^void Element::mulX (real_t* src) const$/;"	f	class:Element
+mulY	.\edge.C	/^void Edge::mulY (real_t* tgt) const$/;"	f	class:Edge
+mulY	.\element.C	/^void Element::mulY (real_t* src) const$/;"	f	class:Element
+nBCedges	.\bcmgr.h	/^  int_t              nBCedges     () const { return _elmtbc.size(); }$/;"	f	class:BCmgr
+nBand	.\numbersys.h	/^  int_t         nBand   () const { return _nbandw;  }$/;"	f	class:NumberSys
+nBlock	.\geometry.h	/^  static int_t  nBlock    () { return _psize \/ _nproc;       }$/;"	f	class:Geometry
+nBnode	.\geometry.h	/^  static int_t  nBnode    () { return _nel * nExtElmt();     }$/;"	f	class:Geometry
+nDim	.\geometry.h	/^  static int_t  nDim      () { return _ndim;                 }$/;"	f	class:Geometry
+nEl	.\mesh.h	/^  int_t nEl         () const { return _elmtTable.size(); }$/;"	f	class:Mesh
+nElmt	.\geometry.h	/^  static int_t  nElmt     () { return _nel;                  }$/;"	f	class:Geometry
+nExtElmt	.\geometry.h	/^  static int_t  nExtElmt  () { return 4 * (_np - 1);         }$/;"	f	class:Geometry
+nField	.\domain.h	/^  int_t nField    () const { return u.size(); }$/;"	f	class:Domain
+nFields	.\data2df.h	/^  int_t nFields () const { return strlen (flds); }$/;"	f	class:Header
+nGlobal	.\numbersys.h	/^  int_t         nGlobal () const { return _nglobal; }$/;"	f	class:NumberSys
+nInode	.\geometry.h	/^  static int_t  nInode    () { return _nel * nIntElmt();     }$/;"	f	class:Geometry
+nIntElmt	.\geometry.h	/^  static int_t  nIntElmt  () { return (_np - 2) * (_np - 2); }$/;"	f	class:Geometry
+nMode	.\geometry.h	/^  static int_t  nMode     () { return (_nz + 1) >> 1;        }$/;"	f	class:Geometry
+nModeProc	.\geometry.h	/^  static int_t  nModeProc () { return nMode() \/ _nproc;      }$/;"	f	class:Geometry
+nNodes	.\mesh.h	/^    int_t nNodes   () const  { return node.size(); }$/;"	f	class:Mesh::Elmt
+nP	.\geometry.h	/^  static int_t  nP        () { return _np;                   }$/;"	f	class:Geometry
+nPlane	.\geometry.h	/^  static int_t  nPlane    () { return _nel * nTotElmt();     }$/;"	f	class:Geometry
+nProc	.\geometry.h	/^  static int_t  nProc     () { return _nproc;                }$/;"	f	class:Geometry
+nSolve	.\numbersys.h	/^  int_t         nSolve  () const { return _nsolve;  }$/;"	f	class:NumberSys
+nSurf	.\bsys.h	/^  int_t                    nSurf () const { return _nbound; }$/;"	f	class:BoundarySys
+nTot	.\geometry.h	/^  static int_t  nTot      () { return _nz  * nPlane();       }$/;"	f	class:Geometry
+nTotElmt	.\geometry.h	/^  static int_t  nTotElmt  () { return _np * _np;             }$/;"	f	class:Geometry
+nTotProc	.\geometry.h	/^  static int_t  nTotProc  () { return _nzp * _psize;         }$/;"	f	class:Geometry
+nTotal	.\geometry.h	/^  static int_t  nTotal    () { return _nz * _psize;          }$/;"	f	class:Geometry
+nWall	.\bcmgr.C	/^int_t BCmgr::nWall ()$/;"	f	class:BCmgr
+nZ	.\geometry.h	/^  static int_t  nZ        () { return _nz;                   }$/;"	f	class:Geometry
+nZ32	.\geometry.h	/^  static int_t  nZ32      () { return (_nproc > 1) ? _nzp : (3 * _nz) >> 1; }$/;"	f	class:Geometry
+nZProc	.\geometry.h	/^  static int_t  nZProc    () { return _nzp;                  }$/;"	f	class:Geometry
+name	.\auxfield.h	/^  char name     ()      const { return _name; }$/;"	f	class:AuxField
+name	.\domain.h	/^  char*                name;	\/\/ Session name.$/;"	m	class:Domain
+name	.\mesh.h	/^  char*          name  ;	\/\/ name of file containing knot points$/;"	m	class:spline2D
+nel	.\data2df.h	/^  int_t  nel ;$/;"	m	class:Header
+node	.\mesh.h	/^    vector<Node*> node;$/;"	m	class:Mesh::Elmt
+normTraction	.\edge.C	/^Vector Edge::normTraction (const char*   grp,$/;"	f	class:Edge
+normTraction	.\field.C	/^Vector Field::normTraction (const Field* P)$/;"	f	class:Field
+normTractionV	.\field.C	/^void Field::normTractionV (real_t*      fx,$/;"	f	class:Field
+norm_H1	.\element.C	/^real_t Element::norm_H1 (const real_t* src) const$/;"	f	class:Element
+norm_L2	.\element.C	/^real_t Element::norm_L2 (const real_t* src) const$/;"	f	class:Element
+norm_inf	.\element.C	/^real_t Element::norm_inf (const real_t* src) const$/;"	f	class:Element
+nr	.\data2df.h	/^  int_t  nr  ;$/;"	m	class:Header
+ns	.\data2df.h	/^  int_t  ns  ;$/;"	m	class:Header
+nz	.\data2df.h	/^  int_t  nz  ;$/;"	m	class:Header
+operator	.\domain.C	/^istream& operator >> (istream& strm,$/;"	f
+operator	.\domain.C	/^ostream& operator << (ostream& strm,$/;"	f
+operator	.\statistics.C	/^ifstream& operator >> (ifstream&   strm,$/;"	f
+operator	.\statistics.C	/^ofstream& operator << (ofstream&   strm,$/;"	f
+operator /=	.\auxfield.h	/^  AuxField& operator \/= (const AuxField&) { return *this; }$/;"	f	class:AuxField
+operator =	.\field.h	/^  Field& operator = (const AuxField& z) {AuxField::operator=(z); return *this;}$/;"	f	class:Field
+operator =	.\field.h	/^  Field& operator = (const char*     z) {AuxField::operator=(z); return *this;}$/;"	f	class:Field
+operator =	.\field.h	/^  Field& operator = (const real_t&   z) {AuxField::operator=(z); return *this;}$/;"	f	class:Field
+operator []	.\matrix.h	/^  const MatrixSys* operator [] (const int_t i) const { return _Msys[i]; }$/;"	f	class:ModalMatrixSys
+periodic	.\mesh.h	/^    Node* periodic;$/;"	m	class:Mesh::Node
+phaseUpdate	.\statistics.C	/^void Statistics::phaseUpdate (const int_t j   ,$/;"	f	class:Statistics
+planeSize	.\geometry.h	/^  static int_t  planeSize () { return _psize;                }$/;"	f	class:Geometry
+pos	.\mesh.h	/^  int_t          pos   ;	\/\/ index of last confirmed position$/;"	m	class:spline2D
+print	.\boundary.C	/^void Boundary::print () const$/;"	f	class:Boundary
+printBoundaries	.\field.C	/^void Field::printBoundaries (const Field* F)$/;"	f	class:Field
+printMatSC	.\element.C	/^void Element::printMatSC (const real_t* hbb,$/;"	f	class:Element
+printNek	.\mesh.C	/^void CircularArc::printNek () const$/;"	f	class:CircularArc
+printNek	.\mesh.C	/^void Mesh::printNek () const$/;"	f	class:Mesh
+printNek	.\mesh.C	/^void Spline::printNek () const$/;"	f	class:Spline
+printVector	.\misc.C	/^ostream& printVector (ostream&    strm,$/;"	f
+probe	.\element.C	/^real_t Element::probe (const real_t  r   ,$/;"	f	class:Element
+procID	.\geometry.h	/^  static int_t  procID    () { return _pid;                  }$/;"	f	class:Geometry
+project	.\element.C	/^void Element::project (const int_t   nsrc,$/;"	f	class:Element
+radius	.\mesh.h	/^  real_t radius;$/;"	m	class:CircularArc
+report	.\domain.C	/^void Domain::report ()$/;"	f	class:Domain
+restart	.\domain.C	/^void Domain::restart ()$/;"	f	class:Domain
+rma	.\mesh.C	/^static inline int_t rma (int_t i, int_t j, int_t n)$/;"	f	file:
+rollm	.\sem.h	/^template<class T> inline void rollm (T** u, const int_t m, const int_t n)$/;"	f
+rollv	.\sem.h	/^template<class T> inline void rollv (T* u, const int_t n)$/;"	f
+root	.\feml.h	/^  const char* root      () const { return feml_root; }  $/;"	f	class:FEML
+rv	.\family.C	/^static vector<rvect*> rv;$/;"	v	file:
+scalarFlux	.\edge.C	/^real_t Edge::scalarFlux (const char*   grp,$/;"	f	class:Edge
+scalarFlux	.\field.C	/^real_t Field::scalarFlux (const Field* C)$/;"	f	class:Field
+seek	.\feml.C	/^integer FEML::seek (const char* keyword)$/;"	f	class:FEML
+semiangle	.\mesh.h	/^  real_t semiangle;$/;"	m	class:CircularArc
+sesd	.\data2df.h	/^  char*  sesd;$/;"	m	class:Header
+sess	.\data2df.h	/^  char*  sess;$/;"	m	class:Header
+set	.\boundary.C	/^void Boundary::set (const real_t* src,$/;"	f	class:Boundary
+set	.\condition.C	/^void Essential::set (const int_t   side,$/;"	f	class:Essential
+set	.\condition.C	/^void EssentialFunction::set (const int_t   side,$/;"	f	class:EssentialFunction
+set	.\condition.h	/^  virtual void set       (const int_t, const int_t*,$/;"	f	class:Mixed
+set	.\condition.h	/^  virtual void set       (const int_t, const int_t*,$/;"	f	class:Natural
+set	.\condition.h	/^  virtual void set       (const int_t, const int_t*,$/;"	f	class:NaturalFunction
+set	.\condition.h	/^  virtual void set       (const int_t, const int_t*,$/;"	f	class:NaturalHOPBC
+set	.\geometry.C	/^void Geometry::set (const int_t    NP,$/;"	f	class:Geometry
+setEssential	.\field.C	/^void Field::setEssential (const real_t*    src,$/;"	f	class:Field
+setForGroup	.\edge.C	/^void Edge::setForGroup (const char*  grp,$/;"	f	class:Edge
+showAssembly	.\mesh.C	/^void Mesh::showAssembly (Mesh& m)$/;"	f	class:Mesh
+side	.\bcmgr.h	/^typedef struct bctriple { char group; int_t elmt; int_t side; } BCtriple;$/;"	m	struct:bctriple
+side	.\mesh.h	/^    vector<Side*> side;$/;"	m	class:Mesh::Elmt
+sideDivY	.\element.C	/^void Element::sideDivY (const int_t   side,$/;"	f	class:Element
+sideDivY2	.\element.C	/^void Element::sideDivY2 (const int_t   side,$/;"	f	class:Element
+sideEval	.\element.C	/^void Element::sideEval (const int_t  side,$/;"	f	class:Element
+sideGeom	.\element.C	/^void Element::sideGeom (const int_t side,$/;"	f	class:Element
+sideGet	.\element.C	/^void Element::sideGet (const int_t   side,$/;"	f	class:Element
+sideGetY	.\element.C	/^void Element::sideGetY (const int_t side,$/;"	f	class:Element
+sideGrad	.\element.C	/^void Element::sideGrad (const int_t   side,$/;"	f	class:Element
+sideMulY	.\element.C	/^void Element::sideMulY (const int_t   side,$/;"	f	class:Element
+smooth	.\field.C	/^Field& Field::smooth (AuxField* slave)$/;"	f	class:Field
+smooth	.\field.C	/^void Field::smooth (const int_t nZ ,$/;"	f	class:Field
+solve	.\field.C	/^Field& Field::solve (AuxField*             f  ,$/;"	f	class:Field
+spline2D	.\mesh.h	/^class spline2D$/;"	c
+startNode	.\mesh.h	/^    Node*         startNode;$/;"	m	class:Mesh::Side
+std	.\mesh.C	/^using namespace std;$/;"	v
+step	.\data2df.h	/^  int_t  step;$/;"	m	class:Header
+step	.\domain.h	/^  int_t                step;	\/\/ Runtime step number.$/;"	m	class:Domain
+stream	.\feml.h	/^  istream&    stream    ()       { return feml_file; }$/;"	f	class:FEML
+sum	.\boundary.C	/^void Boundary::sum (const real_t* src,$/;"	f	class:Boundary
+sum	.\condition.C	/^void Mixed::sum (const int_t   side  ,$/;"	f	class:Mixed
+sum	.\condition.C	/^void Natural::sum (const int_t   side  ,$/;"	f	class:Natural
+sum	.\condition.C	/^void NaturalFunction::sum (const int_t   side  ,$/;"	f	class:NaturalFunction
+sum	.\condition.C	/^void NaturalHOPBC::sum (const int_t   side  ,$/;"	f	class:NaturalHOPBC
+sum	.\condition.h	/^  virtual void sum       (const int_t, const int_t*,$/;"	f	class:Essential
+sum	.\condition.h	/^  virtual void sum       (const int_t, const int_t*,$/;"	f	class:EssentialFunction
+surfaces	.\mesh.C	/^void Mesh::surfaces ()$/;"	f	class:Mesh
+sx	.\mesh.h	/^  vector<real_t> sx    ;	\/\/ spline x-coefficients$/;"	m	class:spline2D
+sy	.\mesh.h	/^  vector<real_t> sy    ;	\/\/ spline y-coefficients$/;"	m	class:spline2D
+system	.\geometry.h	/^  static CoordSys system    () { return _csys;                 }  $/;"	f	class:Geometry
+tangTraction	.\edge.C	/^Vector Edge::tangTraction (const char*   grp,$/;"	f	class:Edge
+tangTraction	.\field.C	/^Vector Field::tangTraction (const Field* U,$/;"	f	class:Field
+tangTractionV	.\field.C	/^void Field::tangTractionV (real_t*      fx,$/;"	f	class:Field
+terminal	.\element.h	/^  void terminal (const int_t side,int_t& start,int_t& skip) const$/;"	f	class:Element
+thisElmt	.\mesh.h	/^    Elmt*         thisElmt;$/;"	m	class:Mesh::Side
+time	.\data2df.h	/^  real_t time;$/;"	m	class:Header
+time	.\domain.h	/^  real_t               time;	\/\/ Simulation time.$/;"	m	class:Domain
+tokens	.\feml.C	/^bool FEML::tokens ()$/;"	f	class:FEML
+traction	.\edge.C	/^void Edge::traction (const int_t   k   , \/\/ Fourier mode index$/;"	f	class:Edge
+traction	.\field.C	/^void Field::traction (real_t*      n, \/\/ Normal\/pressure$/;"	f	class:Field
+transform	.\domain.C	/^void Domain::transform (const int_t sign)$/;"	f	class:Domain
+u	.\domain.h	/^  vector<Field*>       u   ;	\/\/ Solution fields: velocities, pressure.$/;"	m	class:Domain
+udat	.\domain.h	/^  vector<real_t*>      udat;	\/\/ Data storage area for solution fields.$/;"	m	class:Domain
+update	.\statistics.C	/^void Statistics::update (AuxField** wrka,$/;"	f	class:Statistics
+upperCase	.\misc.C	/^char* upperCase (char *s)$/;"	f
+value	.\bcmgr.h	/^    char*      value;$/;"	m	class:BCmgr::CondRecd
+vectorFlux	.\edge.C	/^real_t Edge::vectorFlux (const char*   grp,$/;"	f	class:Edge
+visc	.\data2df.h	/^  real_t visc;$/;"	m	class:Header
+weight	.\element.C	/^void Element::weight (real_t* tgt) const$/;"	f	class:Element
+writeField	.\misc.C	/^void writeField (ostream&           file   ,$/;"	f
+x	.\mesh.h	/^  vector<real_t> x     ;	\/\/ knot x-coordinates$/;"	m	class:spline2D
+y	.\mesh.h	/^  vector<real_t> y     ;	\/\/ knot y-coordinates$/;"	m	class:spline2D
+~Analyser	.\analysis.h	/^  ~Analyser () { }$/;"	f	class:Analyser
+~BoundarySys	.\bsys.h	/^  ~BoundarySys () { };$/;"	f	class:BoundarySys
+~Condition	.\condition.h	/^  virtual ~Condition()   { }$/;"	f	class:Condition
+~Curve	.\mesh.h	/^  virtual ~Curve () { }$/;"	f	class:Curve
+~Data2DF	.\data2df.h	/^  ~Data2DF () { delete [] _data; delete [] _plane; }$/;"	f	class:Data2DF
+~Element	.\element.C	/^Element::~Element ()$/;"	f	class:Element
+~FEML	.\feml.h	/^  ~FEML () { feml_file.close(); }$/;"	f	class:FEML
+~Field	.\field.h	/^ ~Field  () { }$/;"	f	class:Field
+~Flowrate	.\flowrate.h	/^  ~Flowrate () { }$/;"	f	class:Flowrate
+~Header	.\data2df.h	/^ ~Header() { delete [] sess; delete [] sesd; delete [] flds; delete [] frmt; }$/;"	f	class:Header
+~MatrixSys	.\matrix.C	/^MatrixSys::~MatrixSys()$/;"	f	class:MatrixSys
+~ModalMatrixSys	.\matrix.C	/^ModalMatrixSys::~ModalMatrixSys ()$/;"	f	class:ModalMatrixSys
+~NumberSys	.\numbersys.h	/^ ~NumberSys () { }; $/;"	f	class:NumberSys
