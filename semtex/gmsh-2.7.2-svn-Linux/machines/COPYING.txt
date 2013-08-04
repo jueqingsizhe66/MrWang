@@ -1,0 +1,6 @@
+Models developped by R. Sabariego, J. Gyselinck, [[User:Geuzaine|C. Geuzaine]] and F. Baneira in the framework of the [[FEDO]] project. Copyright (c) 2013 ULg-ULB.
+<!--
+
+Include full license here
+
+-->

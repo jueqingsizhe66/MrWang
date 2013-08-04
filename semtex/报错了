@@ -1,0 +1,64 @@
+g++  -O3 -w -Wno-deprecated -I. -I../include  -c -o misc.o ../src/misc.C
+g++ -o compare compare.o bsys.o bcmgr.o boundary.o condition.o edge.o family.o feml.o mesh.o element.o auxfield.o geometry.o pressure.o integration.o misc.o -O3 -w -Wno-deprecated -L../lib/Linux-iX86 -L/usr/local/lib -lfem -lvec -llapack -lblas -lg2c -lm
+/usr/bin/ld: cannot find -lfem
+/usr/bin/ld: cannot find -lg2c
+collect2: ld 返回 1
+make: *** [compare] 错误 1
+
+root at xinran-N53SM in /SSeM/semtex/utility exited 2
+$ cd ..
+
+root at xinran-N53SM in /SSeM/semtex
+$ cd femlib/
+
+root at xinran-N53SM in /SSeM/semtex/femlib
+$ make install
+make headers
+make[1]: 正在进入目录 `/SSeM/semtex/femlib'
+if test ! -d  ../include	;	then    \
+		mkdir ../include	;	fi
+rm -f ../include/cfemdef.h	;	\
+	rm -f ../include/cfemlib.h  ;	\
+	rm -f ../include/polylib.h  ;	\
+	rm -f ../include/femlib.h	;			
+cp cfemdef.h	../include	;	\
+	cp cfemlib.h	../include	;	\
+	cp polylib.h	../include  ;	\
+	cp femlib.h	../include
+make[1]:正在离开目录 `/SSeM/semtex/femlib'
+if test ! -d ../lib 			;	then	\
+		mkdir ../lib 			; 	fi;	\
+	if test ! -d ../lib/Linux-iX86 		;	then	\
+		mkdir ../lib/Linux-iX86		;	fi;	\
+	if test -r libfem.a 				;	then	\
+		rm -f ../lib/Linux-iX86/libfem.a		;		\
+		cp libfem.a ../lib/Linux-iX86		;	fi
+if test ranlib				;	then	\
+		ranlib ../lib/Linux-iX86/libfem.a	;	fi
+
+root at xinran-N53SM in /SSeM/semtex/femlib
+$ cd ..
+
+root at xinran-N53SM in /SSeM/semtex
+$ ls
+COPYING  elliptic  lib       README      semtex.tar.gz  test
+dns      femlib    Makefile  regress     sm             utility
+dns_ff   include   mesh      semtex.tar  src            veclib
+
+root at xinran-N53SM in /SSeM/semtex
+$ cd utility/
+
+root at xinran-N53SM in /SSeM/semtex/utility
+$ make calc
+g++ -I. -I../include -o calc calc.C -O3 -w -Wno-deprecated -L../lib/Linux-iX86 -L/usr/local/lib -lfem -lvec -llapack -lblas -lg2c -lm
+/usr/bin/ld: cannot find -lg2c
+collect2: ld 返回 1
+make: *** [calc] 错误 1
+
+
+fem  femlib
+vec  veclib
+lapack
+blas    两个只要安装  apt-get install liblapack即可
+m 解决了
+还差g2c这个库
